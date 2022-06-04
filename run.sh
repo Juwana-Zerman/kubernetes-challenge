@@ -15,6 +15,9 @@ docker build -t k8-challenge:latest .
 # deploy yaml files
 kubectl apply -f kubedeploy/
 
+# check cluster health with Kubernetes Dashboard
+minikube dashboard
+
 # check pods
 kubectl get pods
 
@@ -23,10 +26,8 @@ kubectl get service
 
 # get minikube ip
 minikube ip
-ENDPOINT=$(minikube ip):4000
+minikube service list
 
 # curl to check endpoint
-curl $(ENDPOINT)
 
-# check cluster health with Kubernetes Dashboard
-minikube dashboard
+
