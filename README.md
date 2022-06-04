@@ -1,6 +1,6 @@
 # Kubernetes challenge
 
-Deploy this application to [Minikube](https://github.com/kubernetes/minikube) and customise the environment variable to display your name.
+Deploy this application to [Minikube](https://github.com/kubernetes/minikube) and customize the environment variable to display your name.
 
 ```
 $ curl $(minikube ip)
@@ -23,5 +23,5 @@ There's no need to push the Docker image to a Docker registry. You should be abl
 You can expose Minikube's Docker daemon with:
 
 ```shell
-$ eval (minkube docker-env)
+$ eval (minikube docker-env)
 ```
