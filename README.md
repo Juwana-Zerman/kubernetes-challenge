@@ -18,6 +18,8 @@ Hello MINIKUBE!
 
 ## Local Development Steps
 
+Trello was used to track the steps to deploy your application to Minikube. You can find the [Trello board](https://trello.com/b/byNw1GdF/kubernetes-challenge) here.
+
 This project was completed using Windows Pro. The local environment setup consisted of:
 
 - Installing Docker
